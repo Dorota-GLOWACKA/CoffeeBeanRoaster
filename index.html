@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee bean Roaster</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 fixed-top" id="navbar-example">
+    <div class="container">
+      <a class="navbar-brand coffee-color-dark" href="#" coffee-color-dark><i class="bi bi-cup-hot coffee-color-dark"></i> Coffee bean Roaster</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active coffee-color-dark" href="#home">Home</a>
+          <a class="nav-link coffee-color-dark" href="#aboutus">O nas</a>
+          <a class="nav-link coffee-color-dark" href="#team">Zespół</a>
+          <a class="nav-link coffee-color-dark" href="#contact">Kontakt</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="home">
+    <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-light text-center">
+      <p class="display-1">Coffee bean Roaster</p>
+      <p class="welcome-text mb-5">Bo zawsze jest dobry czas na kawę.</p>
+      <a href="#aboutus" class="btn btn-outline-light">poznaj nas</a>
+      <div class="hero-shadow"></div>
+    </div>
+  </section>
+
+
+  <main>
+    <section id="aboutus">
+      <div class="conatainer py-5 aboutus-boxes">
+        <div class="row text-center">
+
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="aboutus-box m-3 p-4 p-lg-auto border coffee-color-dark">
+              <h3>Jakość</h3>
+              <i class="bi bi-check aboutus-icon"></i>
+              <p>Kawa Speciality różni się od zwykłej pod wieloma względami - zaczynając od tych niewidocznych dla
+                konsumenta (warunki uprawy), kończąc na tych, które dla niego są najistotniejsze (smak i aromat). </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="aboutus-box aboutus-box2 m-3 p-4 p-lg-5 border text-light">
+              <h3>Rodzaj</h3>
+              <i class="bi bi-funnel-fill aboutus-icon"></i>
+              <p>Arabica</p>
+              <p>Robusta</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="aboutus-box m-3 p-4 p-lg-5 border coffee-color-dark">
+              <h3>Pochodzenie</h3>
+              <i class="bi bi-globe-europe-africa aboutus-icon"></i>
+              <p>Kraje znane z produkcji kawy to między innymi Kolumbia, Etiopia, Brazylia i Indonezja i takie właśnie
+                mamy dla Państwa w naszej ofercie.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="aboutus-box aboutus-box2 m-3 p-4 p-lg-5 border text-light">
+              <h3>Ceny</h3>
+              <i class="bi bi-currency-dollar aboutus-icon"></i>
+              <p>Od 54,99 zł do 120 zł</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-5">
+        <p class="display-3 text-uppercase coffee-color-dark text-center mb-4">Czym się wyróżniamy?</p>
+
+        <div class="accordion py-5" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header coffee-color-dark">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Najlepsza jakość produktów
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Ziarna, z których produkujemy nasze kawy pochodzą z ekologicznych plantacji. Tworzą je ziarna z gatunku
+                Arabiki, Robusty lub mieszanki. Ziarna kawy pochodzą z Afryki i Ameryki Środkowej. Dzięki temu tworzymy
+                idealne kawy dla osób z różnymi upodobaniami i gustami smakowymi.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Świetne relacje z klientami
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Współpracujemy z naszymi klientami zarówno online, jak i bezpośrednio. Konsultacje, w trakcie których
+                dowiadujemy się o oczekiwaniach naszych klientów, są podstawą
+                do stworzenia pierwszej mieszanki. Następnie ze wstępnie przygotowanym produktem spotykamy się z
+                klientem i dopracowujemy szczegóły. W 95% przypadków już po pierwszym
+                spotkaniu klient decyduje sie na ostateczną wersję produktu.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Zdobywcy wielu nagród
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Mistrzostwa Polski Brewers Cup 2022 - złoto - Kuba Kawowy
+                <br><br>
+                Mistrzostwa Polski AeroPress - srebro - Paula Tubman
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team py-5 px-4">
+      <div class="container py-5 text-center">
+        <p class="display-3 text-uppercase  mb-0"> Zespół</p>
+        <p class="py-5">Nasz zepół to paczka przyjaciół jeszcze z czasów studenckich. Poznaliśmy się w kawiarni, w
+          której dorabialiśmy na studiach. Pewnego dnia stwierdziliśmy, że skoro wpsółpraca tak świetnie się układa, a
+          każdy z nas ma wyjątkowe umiejętności to znak, że możemy stworzyć coś wyjątkowego. Kawa to było coś co nas połączyło.
+          Wkrótce okazało się, że stworzyliśmy
+          wyjątkową palarnię kawy.
+        </p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./img/kobieta_1.jpg" class="card-img-top" alt="Kobieta, blond włosy, ciemna koszula">
+              <div class="card-body">
+                <h5 class="card-title">Prezes - Aneta Bin</h5>
+                <p class="card-text">Wyjątkowa Pani Prezes. Uwielbia swoją pracę. Potrafi w wyjatkowy sposób tworzyć
+                  nowe aromatyczne smaki kaw.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./img/kobieta_2.jpg" class="card-img-top"
+                alt="Ciemnoskóra kobieta, włosy afro, biały uśmiech, sukienka pomarańczowoczerwona">
+              <div class="card-body">
+                <h5 class="card-title">Manager - Paula Tubman</h5>
+                <p class="card-text">Miłośniczka podróży. Uwielbia kawę i potrafi przyrządzać przepyszne napary.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./img/mężczyzna_1.jpg" class="card-img-top"
+                alt="Młody mężczyzna, brunet, ładne uśmiech, białe zęby, ubrany w czarną koszulkę">
+              <div class="card-body">
+                <h5 class="card-title">Barista - Kuba Kawowy</h5>
+                <p class="card-text">Certyfikowany barista. Złoty medalista w Mistrzostwach Polski Brewers Cup 2022.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./img/mężczyzna_2.jpg" class="card-img-top"
+                alt="Mężczyzna, ciemny blondyn, lekko przekrzywiony nos, w różowej koszulce">
+              <div class="card-body">
+                <h5 class="card-title">Marketing - Maciek Latte</h5>
+                <p class="card-text">Wspaniale rozpoznaje potrzeby rynku. Maciek jako pierwszy ma kontakt z naszymi
+                  klientami.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact  py-5">
+      <div class="container text-center py-5">
+        <p class="display-3 pb-lg-5 text-uppercase">Napisz do nas!</p>
+
+        <div class="row">
+          <div class="col-lg-9 my-5 m-lg-0">
+
+            <form>
+
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Imię i nazwisko">
+              </div>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Adres mailowy">
+              </div>
+              <div class="input-group mb-3">
+                <textarea rows="6" class="form-control" placeholder="Treść wiadomości"></textarea>
+              </div>
+
+              <input type="submit" value="Wyślij" class="btn btn-light px-4 py-2 submit-btn">
+
+            </form>
+          </div>
+          <div class="col-lg-3 mt-4 m-lg-0 contact info">
+            <h3>Adres:</h3>
+            <p class="coffee-color-light">Coffee bean Roaster</p>
+            <p><i class="bi bi-geo-alt coffee-color"></i> ul.Sezamkowa 0 <br> 00-000 Radom</p>
+            <p><i class="bi bi-phone coffee-color"></i> +48 000 000 000</p>
+            <p><i class="bi bi-at coffee-color"></i> kontakt@mail.pl</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="border-top">
+  <p class="text-center mb-0 py-5">&copy Coffee Bean Roaster | design by Dorota Głowacka</p>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
